@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+# Visual Studio 2015 cache/options directory
+.vs/**
+/wwwroot/dist/**
+/ClientApp/dist/**
+.awcache
+/.idea/inspectionProfiles
+/.idea
+/web/.idea/.idea.wwp/.idea
