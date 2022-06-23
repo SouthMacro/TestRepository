@@ -22,7 +22,7 @@ namespace PS1
             this.logger = this.GetEarlyInitializationLogger();
         }
 
-        private ILogger GetEarlyInitializationLogger()
+        private ILogger GetEarlyInitializationLogger() 
         {
             using var loggerFactory = LoggerFactory.Create(this.LoggingBuilder());
             return loggerFactory.CreateLogger("Initialization");
