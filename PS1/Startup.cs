@@ -19,6 +19,8 @@ namespace PS1
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            // Hello
+            this.Configuration.Bind("Hello");
             this.logger = default(ILogger);
             this.logger = this.GetEarlyInitializationLogger();
         }
